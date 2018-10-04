@@ -19,4 +19,4 @@ Refer [Project Website](http://deepvisioncentre.github.io/) for more information
 
 ---
 
-Read [contribution guide](Contributing.md) before contributing to these repository.
+Read [contribution guide](Contributing.md) before contributing to these collection of repositories.
