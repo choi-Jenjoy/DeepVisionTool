@@ -7,11 +7,11 @@ With an equivalent functionality of a flow based chatbot which launches the modu
 
 ## GUI Screenshot
 
-[GUI Screenshot](assets/GUI_Screenshot.png)  
+![GUI Screenshot](assets/GUI_Screenshot.png)  
 
 ## GUI Working Screenshot
 
-[GUI Working Screenshot](assets/GUI_Working_Test.png)  
+![GUI Working Screenshot](assets/GUI_Working_Test.png)  
 
 Test files are being runned and tested in this repository. By simply changing the path in code, DeepVision Modules can be executed from GUI itself.  
 
