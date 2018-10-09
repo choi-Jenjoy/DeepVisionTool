@@ -34,6 +34,7 @@ hlp_set = set(help_phrases)
 # Method for starting modules
 def query_func():
     """Query method will open respective modules with phrases matching"""
+    
     user_text = user_input.get()
     text_list = re.split(r'\W+',user_text)
     text_list = [x.lower() for x in text_list]
@@ -56,7 +57,7 @@ def query_func():
         output.config(text=ui_txt)
         subprocess.call('gedit assets/HELP.md', shell=True)
     else:
-        ui_txt = 'Didn\'t get you mate !!'
+        ui_txt = 'Didn\'t get you mate, Type Help !!'
         output.config(text=ui_txt)
 
 # Button for Query

@@ -1,5 +1,10 @@
 # DeepVision Tool
 
+The main aim of this repository is to provide Deep Learning as a service via various architectures like
+Desktop base application or Client-Server based web-application.
+
+To know more, refer to [Fun Introduction](assets/FunIntroduction.pdf) for this project.
+
 ## Tkinter Based GUI tool
 
 It contains a operational GUI which executes python scripts along within same console to run them.  
