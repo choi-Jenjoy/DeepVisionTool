@@ -41,30 +41,30 @@ def query_func():
     txt_set = set(text_list)
     # two of the lists have one element in common for initiating the module
     if (cht_set & txt_set):
-        ui_txt = 'Chatbot Module Started. Check Your Terminal !!'
+        ui_txt = 'Chatbot Module Started. Check Your Terminal!!'
         output.config(text=ui_txt)
-        subprocess.call('python3 test_scripts/script_zero.py', shell=True)
+        subprocess.call(['python3', 'test_scripts/script_zero.py'])
     elif (obj_set & txt_set):    
-        ui_txt = 'VQA Module Started. Check Your Terminal !!'
+        ui_txt = 'VQA Module Started. Check Your Terminal!!'
         output.config(text=ui_txt)
-        subprocess.call('python3 test_scripts/script_one.py', shell=True)
+        subprocess.call(['python3', 'test_scripts/script_one.py'])
     elif (cxt_set & txt_set):    
-        ui_txt = 'Activity Classification Module Started. Check Your Terminal !!'
+        ui_txt = 'Activity Classification Module Started. Check Your Terminal!!'
         output.config(text=ui_txt)
-        subprocess.call('python3 test_scripts/script_two.py', shell=True)
+        subprocess.call(['python3', 'test_scripts/script_two.py'])
     elif (hlp_set & txt_set):
-        ui_txt = 'Help File Open. Check you text editor !!'
+        ui_txt = 'Help File Open. Check you text editor!!'
         output.config(text=ui_txt)
-        subprocess.call('gedit assets/HELP.md', shell=True)
+        subprocess.call(['gedit', 'assets/HELP.md'])
     else:
-        ui_txt = 'Didn\'t get you mate, Type Help !!'
+        ui_txt = 'Didn\'t get you mate, Type Help!!'
         output.config(text=ui_txt)
 
 # Button for Query
-button = tk.Button(root, text="Query Now, Get Started !!", command=query_func)
+button = tk.Button(root, text="Query Now, Get Started!!", command=query_func)
 button.pack()
 
-output = tk.Label(root, text="[ How, may I Help you !!! ]")
+output = tk.Label(root, text="[How may I Help you!!! ]")
 output.pack()
 
 root.mainloop()

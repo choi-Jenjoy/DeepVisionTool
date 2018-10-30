@@ -23,7 +23,7 @@ Test files are being runned and tested in this repository. By simply changing th
 ```
 Simply change this path, add location of execution file of module
 
-subprocess.call('python3 test_scripts/script_zero.py', shell=True)
+subprocess.call(['python3', 'test_scripts/script_zero.py'])
 ```
 
 The following command is used to run the GUI. Dependencies involves any python 3.5.x+ version with module like `tkinter`, `subprocess` being present for GUI execution.  
