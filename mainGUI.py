@@ -43,19 +43,19 @@ def query_func():
     if (cht_set & txt_set):
         ui_txt = 'Chatbot Module Started. Check Your Terminal !!'
         output.config(text=ui_txt)
-        subprocess.call('python3 test_scripts/script_zero.py', shell=True)
+        subprocess.call(['python3', 'test_scripts/script_zero.py'])
     elif (obj_set & txt_set):    
         ui_txt = 'VQA Module Started. Check Your Terminal !!'
         output.config(text=ui_txt)
-        subprocess.call('python3 test_scripts/script_one.py', shell=True)
+        subprocess.call(['python3', 'test_scripts/script_one.py'])
     elif (cxt_set & txt_set):    
         ui_txt = 'Activity Classification Module Started. Check Your Terminal !!'
         output.config(text=ui_txt)
-        subprocess.call('python3 test_scripts/script_two.py', shell=True)
+        subprocess.call(['python3', 'test_scripts/script_two.py'])
     elif (hlp_set & txt_set):
         ui_txt = 'Help File Open. Check you text editor !!'
         output.config(text=ui_txt)
-        subprocess.call('gedit assets/HELP.md', shell=True)
+        subprocess.call(['gedit', 'assets/HELP.md'])
     else:
         ui_txt = 'Didn\'t get you mate, Type Help !!'
         output.config(text=ui_txt)
