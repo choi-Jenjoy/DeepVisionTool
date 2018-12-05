@@ -43,6 +43,14 @@ Refer [Project Website](http://deepvisioncentre.github.io/) for more information
 * Multiple modules can be opened in parallel.
 * Passes all the test and assumptions.
 
+## Project Poster
+
+![Explanatory Project Poster](assets/CapstonePosterJPEG.jpg)
+
+## Project Presentation
+
+![Explanatory Project Presentation](assets/CapstonePresentation.pdf)
+
 ---
 
-Read [contribution guide](Contributing.md) before contributing to these collection of repositories.  
+Read [contribution guide](CONTRIBUTING.md) before contributing to these collection of repositories.  
